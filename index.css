@@ -1,0 +1,51 @@
+.panel {
+  border: 1px solid #f4511e;
+  border-radius:0;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 20px 0px 40px rgba(0,0,0, .2);
+}
+
+
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+.mapouter
+{position:relative;text-align:right;height:386px;width:1300px;
+}
+
+.gmap_canvas
+ {overflow:hidden;background:none!important;height:386px;width:1300px;
+}
+
+
+#popUpWindow{
+  //background: lightblue; 
+}
+
+
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
